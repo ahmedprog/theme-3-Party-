@@ -1,0 +1,186 @@
+ء*{
+  box-sizing: border-box;
+  transition: all 2s;
+}
+body{
+  margin: 0;
+}
+/*start header*/
+
+header {
+  background-image: url(../images/party.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  color: #FFF;
+  width: 100%;
+  height: 660px;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(214,46,51 ,.8);
+}
+
+.contant{
+  margin-top: 200px;
+  text-transform: capitalize;
+}
+.contant h1{
+  letter-spacing: 3px;
+  font-size: 60px;
+  text-align: center;
+
+}
+/*this  btn  open sidenav*/
+.contant span{
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+/*sidebar*/
+.sidenav{
+  width: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+    z-index: 999;
+  background-color: #414658;
+   transition: 0.5s;
+   padding-top: 60px;
+  overflow-x: hidden;
+}
+.sidenav a{
+  padding: 15px;
+  font-size: 25px;
+  transition: 0.3s;
+  color: #FFF;
+  width: 100%;
+  display:block;
+  text-decoration: none;
+}
+.sidenav a:hover ,.sidenav a:focus{
+color: rgb(214,46,51);
+}
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  color: #111;
+  left: 60%;
+  font-size: 36px;
+  cursor: pointer;
+}
+/*end header*/
+/*start ACCORDION*/
+#accordion{
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+}
+#accordion h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214,46,51 ,.6);
+  cursor: pointer;
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+  }
+  #accordion div{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+  }
+/*End ACCORDION*/
+/*Start counter*/
+#countsec{
+  margin-bottom: 60px;
+  color: #FFF;
+  background-image: url(../images/back2.jpg);
+  width: 100%;
+  height: 320px;
+  background-size: 100% 100%;
+  position: relative;
+}
+#countsec .container {
+    padding: 85px 0;
+}
+#countsec .tim{
+  padding: 50px;
+  border:1px solid #FFF;
+}
+
+/*End counter*/
+/*start */
+#hireMe .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#hireMe p{
+  text-align: center;
+}
+#hireMe .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+/*start css form */
+#hireMe form input, #hireMe form textarea {
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#hireMe form textarea {
+    height: 200px;
+    resize: vertical;
+}
+#hireMe form button {
+    background-color: #d62e33;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#char {
+    font-size: 20px;
+    color: #d62e33;
+}
+/*right side */
+#hireMe i{
+  color: #777 ;
+  margin-right: 20px;
+}
+#hireMe .icons{
+  margin-top: 60px;
+}
+#hireMe .icons p {
+  margin-bottom: 35px;
+}
+#hireMe .red{
+  color:#d62e33;
+
+}
+#hireMe .iconSocial{
+  margin-top: 60px;
+}
+#hireMe .iconSocial i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #999;
+  text-align: center;
+  margin-right: 10px;
+  line-height: 42px;
+  cursor: pointer;
+}
+#hireMe .iconSocial i:hover{
+  background-color: #d62e33;
+  color: #FFF;
+}
